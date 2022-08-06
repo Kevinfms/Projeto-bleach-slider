@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bleach slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/logo-bleach.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/logo-bleach.png" alt="logo-bleach" class="logo-bleach"/>
+        <h1 class="titulo" >Projeto Bleach</h1>
+    </header>
+
+    <main class="bleach-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar" >
+        </button>
+        
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Ichigo</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/ichigo.png" alt="ichigo" class="imagem-persona" >
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Ichigo adquiriu poderes de shinigami logo após o encontro com Rukia Kuchiki, uma shinigami encarregada de patrulhar a sua cidade, a cidade de Karakura, hoje ele é um dos shinigamis mais fortes que existe e protege o mundo espiritual para que sua esposa e filho possam viver tranquilos</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Byakuya</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/byakuya.png" alt="byakuya" class="imagem-persona" >
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Byakuya nasceu no clã Kuchiki e cresceu na Mansão Kuchiki na Seireitei. Ele passaria inúmeras horas treinando, preparando-se para assumir a liderança da família Kuchiki e se tornar também uns dos melhores capitães.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Kyoraku</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/kyoraku.png" alt="kyoraku" class="imagem-persona" >
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Shunsui Kyouraku é o atual comandante das 13 divisões e ex-capitão da divisão 8 ,tendo como vice Nanao Ise, ele se tornou o comandante após a morte de seu mestre Yamamoto. Ele é capitão desde a primeira geração quando as divisões foram criadas, assim como seus amigos Ukitaki e Unohana, sendo assim um dos mais fortes e experientes.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Rukia</h2>
+                    <p  class="vida">HP 1500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/rukia.png" alt="rukia" class="imagem-persona" >
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Rukia Kuchiki é a atual capitã do 13º Esquadrão. Ela anteriormente servia ao ex capitão do 13º Esquadrão Jūshirō Ukitake, como sua tenente. Quando ela surgiu ela era apenas uma oficial do 13º Esquadrão que tinha sido enviada pelo Gotei 13 para cuidar dos hollows na cidade de Karakura, aonde conheceu Ichigo Kurosaki, que para salvar Ichigo e suas irmãs além de si próprio, ela não se deu opção além de transferir parte dos poderes para Ichigo, ela só não considerava o fato que ele ia tomar quase todo o poder da mesma. Ela então começou a auxilia-lo a derrotar Hollows.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Yamamoto</h2>
+                    <p class="vida">HP 1500</p>
+                </div>
+
+                <div class="contaneir-imagem">
+                    <img src="src/imagens/yamamoto.png" alt="yamamoto" class="imagem-persona" >
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Yamamoto é o shinigami mais velho que se tem notícia. Capitão do 1° Esquadrão e Comandante do Gotei 13, é tido como o mais forte entre os shinigamis, estando acima de todos os outros shinigamis da Gotei 13. É respeitado. É respeita as regras acima de tudo, sempre pensando na justiça, e odeia aqueles que quebram esses princípios. Apesar da idade, ele pode assustar qualquer um ao usar seus poderes. É encarregado por guardar a chave real que é a chave para a dimensão do rei espiritual.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avancar" >
+        </button>
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>
